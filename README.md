@@ -1,6 +1,6 @@
 # Apache-Licensed Summarizers Repository
 
-A comprehensive toolkit for testing, benchmarking, and using Apache 2.0-licensed text summarization models. This repository contains all the code, tools, and examples referenced in the blog post "7 Apache-Licensed Summarisation Models Worth Trying".
+A comprehensive toolkit for testing, benchmarking, and using Apache 2.0-licensed text summarization models. This repository contains all the code, tools, and examples referenced in the blog post [Apache-Licensed Summarizers](https://daehnhardt.com/blog/2025/11/14/apache-licensed-summarizers/).
 
 ## 📋 Project Description
 
@@ -671,6 +671,7 @@ The models used in this repository are also Apache 2.0 licensed, making this too
 - **Hugging Face** for the transformers library and model hosting
 - **Elena** for providing test articles from her blog
 - **Apache Software Foundation** for the permissive Apache 2.0 license
+- **Cursor** (with Claude 3.5 Sonnet) for AI-assisted development and code generation
 
 ## 📞 Support
 
