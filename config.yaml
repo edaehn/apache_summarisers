@@ -1,0 +1,47 @@
+models:
+  - name: "facebook/bart-large-cnn"
+    description: "BART-based CNN/DailyMail summarizer"
+    base_model: "BART"
+    license: "Apache-2.0"
+    best_for: "News & blog-style articles"
+    notes: "Official Facebook BART model trained on CNN/DailyMail dataset"
+    
+  - name: "google/flan-t5-small"
+    description: "Google's FLAN-T5 small model"
+    base_model: "T5"
+    license: "Apache-2.0"
+    best_for: "Instruction-following tasks"
+    notes: "Google's instruction-tuned T5 model, excellent for summarization"
+    
+  - name: "t5-small"
+    description: "Small T5 general-purpose model"
+    base_model: "T5"
+    license: "Apache-2.0"
+    best_for: "General text summarization"
+    notes: "Small but effective T5 model for general summarization tasks"
+
+# Elena's benchmark articles (latest 5 posts)
+articles:
+  - url: "https://daehnhardt.com/blog/2025/10/16/lora-fine-tuning-wins/"
+    title: "LoRA fine-tuning wins"
+    
+  - url: "https://daehnhardt.com/blog/2025/10/16/should-you-use-rebase/"
+    title: "Should you use rebase?"
+    
+  - url: "https://daehnhardt.com/blog/2025/10/16/ai-honesty-agents-and-the-fight-for-truth/"
+    title: "AI Honesty, Agents, and the Fight for Truth"
+    
+  - url: "https://daehnhardt.com/blog/2025/10/10/safety-agents-and-compute/"
+    title: "Safety, Agents, and Compute"
+    
+  - url: "https://daehnhardt.com/blog/2025/10/03/scope-creep-in-vibe-coding/"
+    title: "Cursor Made Me Do It"
+
+# Benchmark settings
+benchmark:
+  max_length: 150
+  min_length: 50
+  do_sample: false
+  temperature: 1.0
+  top_p: 1.0
+  max_input_length: 512  # Conservative limit to avoid tokenization issues

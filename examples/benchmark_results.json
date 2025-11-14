@@ -1,0 +1,152 @@
+{
+  "facebook/bart-large-cnn": {
+    "model_info": {
+      "name": "facebook/bart-large-cnn",
+      "description": "BART-based CNN/DailyMail summarizer",
+      "base_model": "BART",
+      "license": "Apache-2.0",
+      "best_for": "News & blog-style articles",
+      "notes": "Official Facebook BART model trained on CNN/DailyMail dataset"
+    },
+    "articles": {
+      "LoRA fine-tuning wins": {
+        "original_length": 29602,
+        "summary_length": 322,
+        "inference_time": 14.174917936325073,
+        "rouge_scores": {
+          "rouge1": 0.023475258918296896,
+          "rouge2": 0.02210453603499885,
+          "rougeL": 0.023475258918296896
+        },
+        "summary": "LoRA (Low-Rank Adaptation) lets you freeze the original model and learn a tiny set of extra weights. The result? Fast training, tiny checkpoints, and easy swapping between different skills. This post explains LoRA with simple mental models, then walks you through a complete PyTorch + PEFT setup using a practical example."
+      },
+      "Should you use rebase?": {
+        "original_length": 9518,
+        "summary_length": 352,
+        "inference_time": 12.280198812484741,
+        "rouge_scores": {
+          "rouge1": 0.07035755478662054,
+          "rouge2": 0.06235565819861432,
+          "rougeL": 0.06805074971164937
+        },
+        "summary": "Git rebase is a way of rearranging your commits to make them appear as if they were built on top of the latest code, even though they weren\u2019t originally. The result is a clean, linear history without messy merge commits cluttering your timeline. Both rebase and merge are safe when used correctly. They\u2019re just different tools for different situations."
+      },
+      "AI Honesty, Agents, and the Fight for Truth": {
+        "original_length": 2591,
+        "summary_length": 266,
+        "inference_time": 7.822141885757446,
+        "rouge_scores": {
+          "rouge1": 0.19875776397515527,
+          "rouge2": 0.19126819126819128,
+          "rougeL": 0.19875776397515527
+        },
+        "summary": "California told AI to be honest. Microsoft turned our computers into companions. European publishers stood up for truth itself. None of these stories is flashy on its own, but together they sketch the outline of how we\u2019ll live with AI \u2014 and how AI will live with us."
+      },
+      "Safety, Agents, and Compute": {
+        "original_length": 7335,
+        "summary_length": 273,
+        "inference_time": 8.602064847946167,
+        "rouge_scores": {
+          "rouge1": 0.0732722731057452,
+          "rouge2": 0.06839032527105922,
+          "rougeL": 0.0732722731057452
+        },
+        "summary": "This week brought three AI developments worth your attention. Agents can now use UIs reliably enough for real work. Security gets a detect \u2192 patch \u2192 PR loop, not just linting. OpenAI locked in massive compute capacity that will make advanced AI cheaper and more accessible."
+      },
+      "Cursor Made Me Do It": {
+        "original_length": 7827,
+        "summary_length": 295,
+        "inference_time": 9.944406986236572,
+        "rouge_scores": {
+          "rouge1": 0.07025089605734768,
+          "rouge2": 0.06317300789662599,
+          "rougeL": 0.06451612903225806
+        },
+        "summary": "Vibe Coding is when a project\u2019s goals expand without a deliberate decision to do so. Scope creep occurs when you keep adding \u201cjust one more tiny thing\u201d until your project is unrecognisable. Every shiny feature brings friends: testing, security patches, edge cases, and bugs you never saw coming."
+      }
+    },
+    "summary_stats": {
+      "total_articles": 5,
+      "successful_summaries": 5,
+      "failed_summaries": 0,
+      "avg_rouge1": 0.08722274936863311,
+      "avg_rouge2": 0.08145834373389793,
+      "avg_rougeL": 0.08561443494862095
+    }
+  },
+  "t5-small": {
+    "model_info": {
+      "name": "t5-small",
+      "description": "Small T5 general-purpose model",
+      "base_model": "T5",
+      "license": "Apache-2.0",
+      "best_for": "General text summarization",
+      "notes": "Small but effective T5 model for general summarization tasks"
+    },
+    "articles": {
+      "LoRA fine-tuning wins": {
+        "original_length": 29602,
+        "summary_length": 200,
+        "inference_time": 3.649502992630005,
+        "rouge_scores": {
+          "rouge1": 0.014335260115606936,
+          "rouge2": 0.013879250520471894,
+          "rougeL": 0.014335260115606936
+        },
+        "summary": "LoRA (Low-Rank Adaptation) lets you freeze the original model and learn a tiny set of extra weights\u2014adapters . the result? Fast training, tiny checkpoints, and easy swapping between different skills ."
+      },
+      "Should you use rebase?": {
+        "original_length": 9518,
+        "summary_length": 281,
+        "inference_time": 4.0331809520721436,
+        "rouge_scores": {
+          "rouge1": 0.0591647331786543,
+          "rouge2": 0.053426248548199766,
+          "rougeL": 0.05336426914153132
+        },
+        "summary": "rebasing isn\u2019t \u201csafer,\u201d it\u2019s \u201ccleaner.\u201d it rewrites history to make it look like you built your feature on top of the latest master . rebase : replays your feature commits as if they were created on top . you see the actual timeline of development, but it doesn\u2019t happen that way ."
+      },
+      "AI Honesty, Agents, and the Fight for Truth": {
+        "original_length": 2591,
+        "summary_length": 257,
+        "inference_time": 2.3531291484832764,
+        "rouge_scores": {
+          "rouge1": 0.16842105263157897,
+          "rouge2": 0.16490486257928116,
+          "rougeL": 0.16842105263157897
+        },
+        "summary": " 1 California wants AI to tell the truth California passed a new law that says chatbots and AI companions must disclose when they\u2019re AI . it also introduces mental-health safeguards , requiring reporting and response mechanisms when users express distress ."
+      },
+      "Safety, Agents, and Compute": {
+        "original_length": 7335,
+        "summary_length": 222,
+        "inference_time": 2.6802828311920166,
+        "rouge_scores": {
+          "rouge1": 0.0587248322147651,
+          "rouge2": 0.05546218487394958,
+          "rougeL": 0.0587248322147651
+        },
+        "summary": "TL;DR Agents can now use UIs reliably enough for real work . security got an automated teammate that hunts vulnerabilities and proposes fixes . OpenAI locked in massive compute capacity that will make advanced AI cheaper ."
+      },
+      "Cursor Made Me Do It": {
+        "original_length": 7827,
+        "summary_length": 328,
+        "inference_time": 2.8345439434051514,
+        "rouge_scores": {
+          "rouge1": 0.07714285714285714,
+          "rouge2": 0.0715307582260372,
+          "rougeL": 0.07714285714285714
+        },
+        "summary": "you\u2019re riding this incredible wave of productivity, letting the AI carry you forward, and it feels amazing . the textbook definition is boring but accurate: Scope creep occurs when a project\u2019s goals expand without a deliberate decision to do so . you keep adding \u201cjust one more tiny thing\u201d until your project is unrecognisable ."
+      }
+    },
+    "summary_stats": {
+      "total_articles": 5,
+      "successful_summaries": 5,
+      "failed_summaries": 0,
+      "avg_rouge1": 0.07555774705669249,
+      "avg_rouge2": 0.07184066094958792,
+      "avg_rougeL": 0.07439765424926789
+    }
+  }
+}

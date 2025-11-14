@@ -1,0 +1,24 @@
+SAMPLE SUMMARIES FROM APACHE-LICENSED MODELS
+==================================================
+
+Source URL: https://daehnhardt.com/blog/2025/10/16/ai-honesty-agents-and-the-fight-for-truth/
+Content Length: 2591 characters
+
+MODEL: facebook/bart-large-cnn
+------------------------------
+Summary Length: 266 characters
+Summary:
+California told AI to be honest. Microsoft turned our computers into companions. European publishers stood up for truth itself. None of these stories is flashy on its own, but together they sketch the outline of how we’ll live with AI — and how AI will live with us.
+
+MODEL: google/flan-t5-small
+------------------------------
+Summary Length: 278 characters
+Summary:
+Some weeks, the news feels quiet. Other weeks, it hums quietly — as if something subtle but irreversible has shifted. This was one of those weeks. California told AI to be honest. Microsoft turned our computers into companions. And European publishers stood up for truth itself.
+
+MODEL: t5-small
+------------------------------
+Summary Length: 257 characters
+Summary:
+ 1 California wants AI to tell the truth California passed a new law that says chatbots and AI companions must disclose when they’re AI . it also introduces mental-health safeguards , requiring reporting and response mechanisms when users express distress .
+

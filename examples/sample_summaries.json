@@ -1,0 +1,23 @@
+{
+  "facebook/bart-large-cnn": {
+    "model": "facebook/bart-large-cnn",
+    "url": "https://daehnhardt.com/blog/2025/10/16/ai-honesty-agents-and-the-fight-for-truth/",
+    "content_length": 2591,
+    "summary": "California told AI to be honest. Microsoft turned our computers into companions. European publishers stood up for truth itself. None of these stories is flashy on its own, but together they sketch the outline of how we\u2019ll live with AI \u2014 and how AI will live with us.",
+    "summary_length": 266
+  },
+  "google/flan-t5-small": {
+    "model": "google/flan-t5-small",
+    "url": "https://daehnhardt.com/blog/2025/10/16/ai-honesty-agents-and-the-fight-for-truth/",
+    "content_length": 2591,
+    "summary": "Some weeks, the news feels quiet. Other weeks, it hums quietly \u2014 as if something subtle but irreversible has shifted. This was one of those weeks. California told AI to be honest. Microsoft turned our computers into companions. And European publishers stood up for truth itself.",
+    "summary_length": 278
+  },
+  "t5-small": {
+    "model": "t5-small",
+    "url": "https://daehnhardt.com/blog/2025/10/16/ai-honesty-agents-and-the-fight-for-truth/",
+    "content_length": 2591,
+    "summary": " 1 California wants AI to tell the truth California passed a new law that says chatbots and AI companions must disclose when they\u2019re AI . it also introduces mental-health safeguards , requiring reporting and response mechanisms when users express distress .",
+    "summary_length": 257
+  }
+}
